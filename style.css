@@ -1,0 +1,353 @@
+*{
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+#hero-sec{
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  animation: fadeIn 2s ease-in-out;
+}
+.profile-name {
+  font-size: 3rem;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* my services section */
+
+
+/* Services Section */
+.services-mf {
+  background-color: #f8f9fa;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+/* Title and Subtitle */
+.title-box {
+  margin-bottom: 40px;
+}
+
+.title-a {
+  font-size: 36px;
+  font-weight: 700;
+  color: white/* Dark text color */
+}
+
+.subtitle-a {
+  font-size: 18px;
+  color: #6c757d; /* Gray text color */
+}
+
+.line-mf {
+  width: 100px;
+  height: 3px;
+  background-color: #040b13; /* Bootstrap primary color */
+  margin: 8px auto;
+}
+
+/* Service Boxes */
+.service-box {
+  background-color: white;
+  
+  
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.service-box:hover {
+  transform: translateY(-5px);
+}
+
+.service-ico {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  
+}
+
+.ico-circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  background-color:#0078ff; 
+  border-radius: 50%;
+}
+
+.ico-circle i {
+  font-size: 60px;
+  color: #fff; 
+  padding: 20px;
+}
+
+.ico-circle1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  background-color:#0078ff; 
+  border-radius: 50%;
+}
+.socials .ico-circle1 i {
+  font-size: 24px;
+  color: #fff; 
+  padding: 10px;
+}
+
+
+
+
+
+.s-title {
+  font-size: 24px;
+  font-weight: 600;
+  color: white;
+  margin-bottom: 15px;
+}
+
+.s-description {
+  font-size: 16px;
+  color: black 
+}
+.title-s{
+  font-weight: 600;
+  color: black;
+  font-size: 1.1rem;
+  margin-right: 3px;
+}
+.subtitle a {
+  text-decoration: none;
+  color: #4e4e4e;
+}
+
+/* contact section css */
+#contact{
+  background-color: #f5f5f5;
+  padding: 60px 0;
+}
+#contact.box-shadow-full {
+  background-color: #fff; 
+  padding: 30px;
+  border-radius: 10px;
+}
+
+#contact.box-shadow-full input[type="text"],
+#contact.box-shadow-full input[type="email"],
+#contact.box-shadow-full textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+
+#contact.box-shadow-full button {
+  background-color: black;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+ul{
+  list-style: none;
+}
+
+.socials{
+  padding: 1.5rem 0;
+}
+.socials ul {
+  display:  flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  
+}
+
+.list-ico{
+  line-height: 2;
+}
+ .list-ico li i{
+  margin-right: 10px;
+}
+.title-left {
+  font-size: 2rem;
+  position: relative;
+}
+.lead {
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+
+/* form send message code  */
+.form-control-label {
+  display: block;
+  
+  height: calc(1.5em + .75rem + 2px);
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  
+  border-radius: .25rem;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+#about{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  background-color:#f5f5f5
+}
+#title{
+  text-decoration: none;
+  font-size: 3rem;
+  font-weight: 400;
+  line-height: 1.5;
+
+  transition: ease-in-out 0.3s;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+
+/* skill section code */
+#skills{
+  color: black;
+  background-color:white;
+  padding: 60px 0;
+}
+.section {
+  padding: 60px 0;
+  overflow: hidden;
+}
+.section-title {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+/* resume style  */
+
+.resume .resume-title {
+  font-size: 26px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: black;
+}
+
+.resume .resume-item h4 {
+  line-height: 18px;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  color: #0563bb;
+  margin-bottom: 10px;
+}
+em {
+  font-style: italic;
+}
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+#resume {
+  color: black;
+  background-color: #f5f5f5;
+  padding: 60px 0;
+}
+
+.title-a{
+  color: green;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#para{
+  font-style: italic;
+}
+/* improvements
+color theam 
+first page buttons are not readable
+form data alert madhe disala pahije
+social media links 
+indentation*/
+
+ul{
+  padding-left: 0px;
+}
+#contact button {
+  margin: 0px;
+  font-size: 1.2rem;
+  color: white;
+}
+#download-resume{
+  margin: 0px;
+  color: white;
+  font-size: 1.2rem;
+}
+.outer-box{
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.box button{
+  padding: 10px;
+  margin: 10px;
+  background-color: green;
+  font-size: 1.5rem;
+  color: white;
+  border-radius: 10px;
+  border-style: none;
+  
+}
+
+#services{
+  background-color: white;
+
+}
+.service-box .service-ico {
+  margin-bottom: 1rem;
+  color: #1e1e1e;
+}
+.ico-circle {
+  height: 100px;
+  width: 100px;
+  font-size: 2rem;
+  border-radius: 50%;
+  line-height: 1.55;
+  margin: 0 auto;
+  text-align: center;
+  box-shadow: 0 0 0 10px #0078ff;
+  display: block;
+}
